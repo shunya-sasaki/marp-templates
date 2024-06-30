@@ -6,8 +6,6 @@ header: " "
 footer: "&copy; 2024"
 ---
 
----
-
 <!-- _class: title -->
 <!-- _paginate: "skip" -->
 
@@ -46,5 +44,13 @@ footer: "&copy; 2024"
 <script src="https://cdn.jsdelivr.net/npm/mermaid@9">
 </script>
 <script>
-    mermaid.initialize({ startOnLoad: true})
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: "base",
+        flowchart: {
+            padding: 5,
+            nodeSpacing: 25,
+            rankSpacing: 25
+        }
+        })
 </script>
